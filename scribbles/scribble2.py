@@ -28,5 +28,8 @@ def generate_scribble(width, height):
     return image
 
 # Generate and show the scribble
-scribble_image = generate_scribble(800, 600)
+scribble_image = generate_scribble(5000, 3000)
 scribble_image.show()
+
+# Save the image
+scribble_image.save('scribble.png')
